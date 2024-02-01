@@ -22,7 +22,7 @@ jobs:
       # Step 2: run the sync action
       - name: Sync upstream changes
         id: sync
-        uses: lcylgs/Fork-Sync-With-Upstream-action@v1
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
           upstream_sync_repo: selectdb/ccr-syncer
           upstream_sync_branch: main
